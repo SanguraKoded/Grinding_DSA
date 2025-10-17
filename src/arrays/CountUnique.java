@@ -1,3 +1,5 @@
+package arrays;
+
 /**
  * Problem: Count Unique Elements in a Sorted Array
  * -----------------------------------------------

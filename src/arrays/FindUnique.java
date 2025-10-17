@@ -1,4 +1,4 @@
-import java.util.*;
+package arrays;
 
 /**
  * Problem: Find the Unique Element
