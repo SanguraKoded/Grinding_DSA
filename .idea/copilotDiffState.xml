@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/LinkedLists/RemoveNthNodeFromEnd.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/LinkedLists/RemoveNthNodeFromEnd.java" />
+              <option name="originalContent" value="package LinkedLists;&#10;&#10;public class RemoveNthNodeFromEnd {&#10;&#10;    public static ListNode removeNthNodeFromEnd(ListNode head, int n){&#10;        ListNode newHead = new ListNode(0);&#10;        newHead.next = head;&#10;        ListNode fast = newHead;&#10;        ListNode slow = newHead;&#10;        for(int i=0; i&lt;n; i++){&#10;            fast = fast.next;&#10;        }&#10;        while(fast.next != null){&#10;            fast = fast.next;&#10;            slow = slow.next;&#10;        }&#10;        // unlink the nth node from end: slow.next is the node to remove&#10;        if (slow.next != null) {&#10;            slow.next = slow.next.next;&#10;        }&#10;        return newHead.next;&#10;&#10;    }&#10;&#10;    public static void main(String[] args) {&#10;        ListNode head = new ListNode(1);&#10;        head.next = new ListNode(2);&#10;        head.next.next = new ListNode(3);&#10;        head.next.next.next = new ListNode(4);&#10;        head.next.next.next.next = new ListNode(5);&#10;&#10;        ListNode result = removeNthNodeFromEnd(head, 2);&#10;        while(result != null){&#10;            System.out.print(result.val + &quot; &quot;);&#10;            result = result.next;&#10;        }&#10;&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="package LinkedLists;&#10;&#10;public class RemoveNthNodeFromEnd {&#10;&#10;    public static ListNode removeNthNodeFromEnd(ListNode head, int n){&#10;        ListNode newHead = new ListNode(0);&#10;        newHead.next = head;&#10;        ListNode fast = newHead;&#10;        ListNode slow = newHead;&#10;        for(int i=0; i&lt;n; i++){&#10;            fast = fast.next;&#10;        }&#10;        while(fast.next != null){&#10;            fast = fast.next;&#10;            slow = slow.next;&#10;        }&#10;        // unlink the nth node from end: slow.next is the node to remove&#10;        if (slow.next != null) {&#10;            slow.next = slow.next.next;&#10;        }&#10;        return newHead.next;&#10;&#10;    }&#10;&#10;    public static void main(String[] args) {&#10;        ListNode head = new ListNode(1);&#10;        head.next = new ListNode(2);&#10;        head.next.next = new ListNode(3);&#10;        head.next.next.next = new ListNode(4);&#10;        head.next.next.next.next = new ListNode(5);&#10;&#10;        ListNode result = removeNthNodeFromEnd(head, 2);&#10;        while(result != null){&#10;            System.out.print(result.val + &quot; &quot;);&#10;            result = result.next;&#10;        }&#10;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
