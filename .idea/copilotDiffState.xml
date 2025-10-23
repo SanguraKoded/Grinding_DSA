@@ -12,6 +12,15 @@
             </PendingDiffInfo>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/Trees/Node.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/Trees/Node.java" />
+              <option name="originalContent" value="package Trees;&#10;&#10;class Node {&#10;    int val;&#10;    Node left;&#10;    Node right;&#10;&#10;    Node(int val) {&#10;        this.val = val;&#10;        this.left = null;&#10;        this.right = null;&#10;    }&#10;}&#10;&#10;" />
+              <option name="updatedContent" value="package Trees;&#10;&#10;public class Node {&#10;    int val;&#10;    Node left;&#10;    Node right;&#10;&#10;    Node(int val) {&#10;        this.val = val;&#10;        this.left = null;&#10;        this.right = null;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

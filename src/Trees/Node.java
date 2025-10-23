@@ -1,6 +1,6 @@
 package Trees;
 
-class Node {
+public class Node {
     int val;
     Node left;
     Node right;
@@ -11,4 +11,3 @@ class Node {
         this.right = null;
     }
 }
-
